@@ -42,14 +42,14 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-[!catfile1](./images/catfile1.png)
-[!catfile2](./images/catfile2.png)
+![catfile1](./images/catfile1.png)
+![catfile2](./images/catfile2.png)
 
 
 cat < file2
 ## OUTPUT
-[!catfile1display](./images/catfile1display.png)
-[!catfile2display](./images/catfile2display.png)
+![catfile1display](./images/catfile1display.png)
+![catfile2display](./images/catfile2display.png)
 
 
 # Comparing Files
