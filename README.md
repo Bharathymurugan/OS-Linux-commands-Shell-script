@@ -895,6 +895,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+
+[!forin3.sh](./images/forin3.sh.png)
  
 cat forin1.sh 
 ```bash
@@ -906,7 +908,7 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
+[!forin1.sh-cat](./images/forin1.sh-cat.png)
 ## OUTPUT
 cat forinfile.sh 
 ```bash
@@ -928,7 +930,10 @@ Adilabad
 Bhadrachalam
 Khammam
 
+
 ## OUTPUT
+
+[!forinfile.sh](./images/forinfile.sh.png)
 
 
 cat forctype.sh 
@@ -956,6 +961,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+[!forctype.sh](./images/forctype.sh.png)
+[!forctype1.sh](./images/forctype1.sh.png)
+[!forctype1-bash](./images/forctype1-bash.png)
 
 cat fornested1.sh 
 ```bash
@@ -975,6 +983,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+ [!fornested1.sh](./images/fornested1.sh.png)
+
  
 cat forbreak.sh 
 ```bash
@@ -991,6 +1001,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+[!forbreak.sh](./images/forbreak.sh.png)
 
 $ chmod 755 forbreak.sh
  
@@ -1016,6 +1027,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+[!forcontinue.sh](./images/forcontinue.sh.png)
  
 cat exread.sh 
 ```bash
@@ -1030,6 +1042,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+[!exread.sh](./images/exread.sh.png)
 
 
  cat exread1.sh
@@ -1042,6 +1055,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+[!exread1.sh](./images/exread1.sh.png)
 
 
 
@@ -1065,8 +1079,10 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
+[!funcex.sh](./images/funcex.sh.png)
  
  ./funcex.sh 1 2
+ [!funcex12](./images/funcex12.png)
 
  
 cat argshift.sh
@@ -1081,6 +1097,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+[!argshift](./images/argshift.png)
  
  cat argshift1.sh
 ```bash
@@ -1098,6 +1115,10 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+[!argshift](./images/argshift.png)
+[!argshift1.sh](./images/argshift1.sh.png)
+[!argshift.sh(2)](./images/argshift.sh(2).png)
+
  
 cat argshift.sh
 ```bash
@@ -1111,6 +1132,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
+ [!argshift.sh123](./images/argshift.sh123.png)
+ [!argshift1.sh123](./images/argshift1.sh123.png)
  
  
 cat > nc.awk
@@ -1142,6 +1165,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+[!nc.awk](./images/nc.awk.png)
+[!awknc.awk](./images/awknc.awk.png)
  
 cat > palindrome.sh
 ```bash
@@ -1169,6 +1194,8 @@ else
 fi
 ```
 ## OUTPUT 
+[!palindrome.sh](./images/palindrome.sh.png)
+[!palindrome.shTest](./images/palindrome.shTest.png)
 
 
 # RESULT:
