@@ -511,7 +511,9 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+
 ![scriptest](./images/scriptest.png)
+
 ![scriptest123](./images/scriptest123.png)
 
  
@@ -573,7 +575,9 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 ![strcomp](./images/strcomp.png)
+
 ![strcomp.sh](./images/strcomp.sh.png)
+
 ![chmod-strcomp](./images/chmod-strcomp.png)
 
 # check file ownership
@@ -602,7 +606,9 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 ![psswdperm](./images/psswdperm.png)
+
 ![chmod-psswdperm](./images/chmod-psswdperm.png)
+
 ![bash-psswdperm](./images/bash-psswdperm)
 # check if with file location
 cat>ifnested.sh 
@@ -650,7 +656,9 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 ![ifnested.sh](./images/ifnested.sh.png)
+
 ![ifnested.shDisp](./images/ifnested.shDisp.png)
+
 ![ifnestedBash](./images/ifnestedBash.png)
 
 
@@ -695,8 +703,11 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
+
 ##OUTPUT
+
 ![iftest.sh](./images/iftest.sh.png)
+
 ![iftest.shBash](./images/iftest.shBash.png)
 
 # check if a file
@@ -744,10 +755,13 @@ fi
 ```
 
 $ chmod 755 ifnested.sh
- 
+
 $ ./ifnested.sh 
+
 ##OUTPUT
+
 ![ifNested](./images/ifNested.png)
+
 ![ifNestedbash](./images/ifNestedbash.png)
 
 # looking for a possible value using elif
@@ -813,6 +827,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
 ![casecheck.sh](./images/casecheck.sh.png)
  
 cat > whiletest
@@ -829,6 +844,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
  ![whiletest](./images/whiletest.png)
  
 cat untiltest.sh 
@@ -844,6 +860,7 @@ done
 $ chmod 755 untiltest.sh
  
  ![untiltest](./images/untiltest.png)
+ 
  ![untiltestBash](./images/untiltestBash.png)
  
 cat forin1.sh 
@@ -857,6 +874,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
+
  ![forin1.sh](./images/forin1.sh.png)
  
 cat forin2.sh 
@@ -870,6 +888,7 @@ done
  ```
  
 $ chmod 755 forin2.sh
+
 ![forin2](./images/forin2.sh.png)
  
 cat forin2.sh 
@@ -908,8 +927,11 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+
 ![forin1.sh-cat](./images/forin1.sh-cat.png)
+
 ## OUTPUT
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -921,6 +943,7 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
+
 $ cat cities
 Hyderabad
 Alampur
@@ -946,7 +969,9 @@ echo "The value of i is $i"
 done
 ````
 $ chmod 755 forctype.sh
-$ ./forctype.sh 
+
+$ ./forctype.sh
+
 ## OUTPUT
 
 cat forctype1.sh 
@@ -959,10 +984,15 @@ echo "$a - $b"
 done
 ```
 $ chmod 755 forctype.sh
+
 $ ./forctype1.sh 
+
 ## OUTPUT
+
 ![forctype.sh](./images/forctype.sh.png)
+
 ![forctype1.sh](./images/forctype1.sh.png)
+
 ![forctype1-bash](./images/forctype1-bash.png)
 
 cat fornested1.sh 
@@ -981,6 +1011,7 @@ done
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
+
  ## OUTPUT
 
  ![fornested1.sh](./images/fornested1.sh.png)
@@ -1001,6 +1032,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+
 ![forbreak.sh](./images/forbreak.sh.png)
 
 $ chmod 755 forbreak.sh
@@ -1026,7 +1058,9 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+
 ## OUTPUT
+
 ![forcontinue.sh](./images/forcontinue.sh.png)
  
 cat exread.sh 
@@ -1041,7 +1075,9 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
+
 ## OUTPUT
+
 ![exread.sh](./images/exread.sh.png)
 
 
@@ -1055,6 +1091,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+
 ![exread1.sh](./images/exread1.sh.png)
 
 
@@ -1077,11 +1114,13 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+
  ./funcex.sh 
 
 ![funcex.sh](./images/funcex.sh.png)
  
  ./funcex.sh 1 2
+ 
  ![funcex12](./images/funcex12.png)
 
  
@@ -1096,7 +1135,9 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+
 $ ./argshift.sh 1 2 3
+
 ![argshift](./images/argshift.png)
  
  cat argshift1.sh
@@ -1113,10 +1154,15 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
+
 ## OUTPUT
+
 $ ./argshift.sh 1 2 3
+
 ![argshift](./images/argshift.png)
+
 ![argshift1.sh](./images/argshift1.sh.png)
+
 ![argshift.sh(2)](./images/argshift.sh(2).png)
 
  
@@ -1131,8 +1177,11 @@ done
 set +x
 ```
 ## OUTPUT
+
  ./argshift.sh 1 2 3
+ 
  ![argshift.sh123](./images/argshift.sh123.png)
+ 
  ![argshift1.sh123](./images/argshift1.sh123.png)
  
  
@@ -1164,8 +1213,11 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
+
 ## OUTPUT 
+
 ![nc.awk](./images/nc.awk.png)
+
 ![awknc.awk](./images/awknc.awk.png)
  
 cat > palindrome.sh
@@ -1194,7 +1246,9 @@ else
 fi
 ```
 ## OUTPUT 
+
 ![palindrome.sh](./images/palindrome.sh.png)
+
 ![palindrome.shTest](./images/palindrome.shTest.png)
 
 
