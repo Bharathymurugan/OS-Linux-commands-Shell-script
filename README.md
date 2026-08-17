@@ -42,7 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![cat-file1](./imgdis/cat-file1.png)
+![cat-file1](./imgs/cat-file1.png)
 
 
 
@@ -186,7 +186,7 @@ Linux is best in this World
 
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![Hello|hello-egrep](./imgs/Hello|hello-egrep)
+![Hello|hello-egrep](./imgs/Hello|hello-egrep.png)
 
 
 
@@ -513,15 +513,10 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-<<<<<<< HEAD
 
-![scriptest](./images/scriptest.png)
 
-![scriptest123](./images/scriptest123.png)
-=======
 ![scriptest](./imgs/scriptest.png)
 
->>>>>>> e08a1e2 (success)
 
  
 ls file1
@@ -532,7 +527,8 @@ ls file1
 
 echo $?
 ## OUTPUT 
-![echo$?](./imgs/echo$?.png)
+![echo](./imgs/echo.png)
+
 ./one
 bash: ./one: Permission denied
  
@@ -584,17 +580,15 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-<<<<<<< HEAD
-![strcomp](./images/strcomp.png)
 
-![strcomp.sh](./images/strcomp.sh.png)
-
-![chmod-strcomp](./images/chmod-strcomp.png)
-=======
-
+![strcomp-cat](./imgs/strcomp-cat.png)
 
 ![strcomp.sh](./imgs/strcomp.sh.png)
->>>>>>> e08a1e2 (success)
+
+
+
+
+
 
 # check file ownership
 cat < psswdperm.sh 
@@ -621,16 +615,11 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-<<<<<<< HEAD
-![psswdperm](./images/psswdperm.png)
 
-![chmod-psswdperm](./images/chmod-psswdperm.png)
-
-![bash-psswdperm](./images/bash-psswdperm)
-=======
 ![psswdperm](./imgs/psswdperm.png)
 
->>>>>>> e08a1e2 (success)
+
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -676,16 +665,14 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-<<<<<<< HEAD
-![ifnested.sh](./images/ifnested.sh.png)
 
-![ifnested.shDisp](./images/ifnested.shDisp.png)
-
-![ifnestedBash](./images/ifnestedBash.png)
-=======
 ![ifnested](./imgs/ifnested.png)
 
->>>>>>> e08a1e2 (success)
+![ifnested.sh-2](./images/ifnested.sh-2.png)
+
+
+
+
 
 
 
@@ -729,18 +716,15 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-<<<<<<< HEAD
 
-##OUTPUT
 
-![iftest.sh](./images/iftest.sh.png)
 
-![iftest.shBash](./images/iftest.shBash.png)
-=======
+
+
 ## OUTPUT
 ![iftest](./imgs/iftest.png)
 
->>>>>>> e08a1e2 (success)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -791,16 +775,13 @@ $ chmod 755 ifnested.sh
 $ ./ifnested.sh 
 <<<<<<< HEAD
 
-##OUTPUT
 
-![ifNested](./images/ifNested.png)
-
-![ifNestedbash](./images/ifNestedbash.png)
-=======
 ## OUTPUT
+![ifnested](./imgs/ifnested.png)
+
 ![ifnested.sh-2](./imgs/ifnested.sh-2.png)
 
->>>>>>> e08a1e2 (success)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -865,12 +846,11 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
-<<<<<<< HEAD
 
-![casecheck.sh](./images/casecheck.sh.png)
-=======
+
+
 ![casecheck](./imgs/casecheck.png)
->>>>>>> e08a1e2 (success)
+
  
 cat > whiletest
 ```bash
@@ -886,12 +866,10 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
-<<<<<<< HEAD
 
- ![whiletest](./images/whiletest.png)
-=======
+
  ![whiletest](./imgs/whiletest.png)
->>>>>>> e08a1e2 (success)
+
  
 cat untiltest.sh 
 ```bash
@@ -905,13 +883,10 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
-<<<<<<< HEAD
- ![untiltest](./images/untiltest.png)
- 
- ![untiltestBash](./images/untiltestBash.png)
-=======
+
+
  ![unttiltest](./imgs/unttiltest.png)
->>>>>>> e08a1e2 (success)
+
  
 cat forin1.sh 
 ```bash
@@ -924,12 +899,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
-<<<<<<< HEAD
 
- ![forin1.sh](./images/forin1.sh.png)
-=======
+
+
  ![forin1.sh](./imgs/forin1.sh.png)
->>>>>>> e08a1e2 (success)
+
  
 cat forin2.sh 
 ```bash
@@ -943,10 +917,10 @@ done
  
 $ chmod 755 forin2.sh
 
-<<<<<<< HEAD
-![forin2](./images/forin2.sh.png)
-=======
->>>>>>> e08a1e2 (success)
+
+
+
+
  
 cat forin2.sh 
 ```bash
@@ -987,17 +961,14 @@ done
 ```
 $ chmod 755 forin1.sh
 
-<<<<<<< HEAD
-![forin1.sh-cat](./images/forin1.sh-cat.png)
 
-## OUTPUT
 
-=======
+
 ## OUTPUT
 
 ![forin1.sh-cat](./imgs/forin1.sh-cat.png)
 
->>>>>>> e08a1e2 (success)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1057,15 +1028,12 @@ $ ./forctype1.sh
 ## OUTPUT
 
 <<<<<<< HEAD
-![forctype.sh](./images/forctype.sh.png)
+![forctype](./imgs/forctype.png)
 
-![forctype1.sh](./images/forctype1.sh.png)
 
-![forctype1-bash](./images/forctype1-bash.png)
-=======
 ![forctype1.sh](./imgs/forctype1.sh.png)
 
->>>>>>> e08a1e2 (success)
+
 
 cat fornested1.sh 
 ```bash
@@ -1104,12 +1072,11 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-<<<<<<< HEAD
 
-![forbreak.sh](./images/forbreak.sh.png)
-=======
+
+
 ![forbreak.sh](./imgs/forbreak.sh.png)
->>>>>>> e08a1e2 (success)
+
 
 $ chmod 755 forbreak.sh
  
@@ -1136,12 +1103,11 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 
 ## OUTPUT
-<<<<<<< HEAD
 
-![forcontinue.sh](./images/forcontinue.sh.png)
-=======
+
+
 ![forcontinue.sh](./imgs/forcontinue.sh.png)
->>>>>>> e08a1e2 (success)
+
  
 cat exread.sh 
 ```bash
@@ -1157,12 +1123,9 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 
 ## OUTPUT
-<<<<<<< HEAD
 
-![exread.sh](./images/exread.sh.png)
-=======
 ![exread.sh](./imgs/exread.sh.png)
->>>>>>> e08a1e2 (success)
+
 
 
  cat exread1.sh
@@ -1175,12 +1138,11 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-<<<<<<< HEAD
 
-![exread1.sh](./images/exread1.sh.png)
-=======
+
+
 ![exread1.sh](./imgs/exread1.sh.png)
->>>>>>> e08a1e2 (success)
+
 
 
 
@@ -1208,12 +1170,11 @@ fi
 ![funcex.sh](./imgs/funcex.sh.png)
  
  ./funcex.sh 1 2
-<<<<<<< HEAD
+
  
- ![funcex12](./images/funcex12.png)
-=======
+
  ![funcex12](./imgs/funcex12.png)
->>>>>>> e08a1e2 (success)
+
 
  
 cat argshift.sh
@@ -1229,12 +1190,11 @@ $ chmod 777 argshift.sh
 ## OUTPUT
 
 $ ./argshift.sh 1 2 3
-<<<<<<< HEAD
 
-![argshift](./images/argshift.png)
-=======
+
+
 ![argshift](./imgs/argshift.png)
->>>>>>> e08a1e2 (success)
+
  
  cat argshift1.sh
 ```bash
@@ -1255,16 +1215,15 @@ $ chmod 777 argshift.sh
 
 $ ./argshift.sh 1 2 3
 
-<<<<<<< HEAD
-![argshift](./images/argshift.png)
-
-![argshift1.sh](./images/argshift1.sh.png)
-
-![argshift.sh(2)](./images/argshift.sh(2).png)
-=======
 
 
->>>>>>> e08a1e2 (success)
+
+![argshift1.sh](./imgs/argshift1.sh.png)
+
+
+
+
+
 
  
 cat argshift.sh
@@ -1280,15 +1239,12 @@ set +x
 ## OUTPUT
 
  ./argshift.sh 1 2 3
-<<<<<<< HEAD
+
  
- ![argshift.sh123](./images/argshift.sh123.png)
  
- ![argshift1.sh123](./images/argshift1.sh123.png)
-=======
-![argshift1.sh](./imgs/argshift1.sh.png)
+
 ![argshift123](./imgs/argshift123.png)
->>>>>>> e08a1e2 (success)
+
  
  
 cat > nc.awk
@@ -1321,15 +1277,11 @@ ubcdfghj
 awk -f nc.awk data.dat
 
 ## OUTPUT 
-<<<<<<< HEAD
 
-![nc.awk](./images/nc.awk.png)
 
-![awknc.awk](./images/awknc.awk.png)
-=======
 ![nc.awk](./imgs/nc.awk.png)
 
->>>>>>> e08a1e2 (success)
+
  
 cat > palindrome.sh
 ```bash
@@ -1357,15 +1309,12 @@ else
 fi
 ```
 ## OUTPUT 
-<<<<<<< HEAD
 
-![palindrome.sh](./images/palindrome.sh.png)
 
-![palindrome.shTest](./images/palindrome.shTest.png)
-=======
+
 ![palyes](./imgs/palyes.png)
 ![palno](./imgs/palno.png)
->>>>>>> e08a1e2 (success)
+
 
 
 # RESULT:
