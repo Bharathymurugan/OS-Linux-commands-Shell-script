@@ -773,13 +773,13 @@ fi
 $ chmod 755 ifnested.sh
 
 $ ./ifnested.sh 
-<<<<<<< HEAD
+
 
 
 ## OUTPUT
 ![ifnested](./imgs/ifnested.png)
 
-![ifnested.sh-2](./imgs/ifnested.sh-2.png)
+![ifnested2](./imgs/ifnested2.png)
 
 
 
@@ -1027,7 +1027,7 @@ $ ./forctype1.sh
 
 ## OUTPUT
 
-<<<<<<< HEAD
+
 ![forctype](./imgs/forctype.png)
 
 
