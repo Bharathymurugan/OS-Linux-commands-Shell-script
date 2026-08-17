@@ -668,7 +668,7 @@ fi
 
 ![ifnested](./imgs/ifnested.png)
 
-![ifnested.sh-2](./images/ifnested.sh-2.png)
+![ifnested.sh2](./images/ifnested.sh2.png)
 
 
 
