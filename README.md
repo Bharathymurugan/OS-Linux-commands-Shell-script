@@ -779,7 +779,7 @@ $ ./ifnested.sh
 ## OUTPUT
 ![ifnested](./imgs/ifnested.png)
 
-![ifnested2](./imgs/ifnested2.png)
+
 
 
 
