@@ -206,7 +206,7 @@ egrep -w '(H|h)ell[a-z]' newfile
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-![^hello](./imgs/^hello.png)
+![hello](./imgs/hello.png)
 
 
 
